@@ -1,0 +1,13 @@
+source $VIMRUNTIME/defaults.vim
+colorscheme torte
+autocmd FileType yaml,yml setlocal ts=2 sts=2 expandtab et autoindent cuc
+set mouse=
+set paste
+set ruler
+set foldenable
+set cursorline
+set cursorcolumn
+set foldlevelstart=20
+set foldmethod=indent
+syntax on
+nnoremap <space> za
